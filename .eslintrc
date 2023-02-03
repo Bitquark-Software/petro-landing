@@ -1,0 +1,43 @@
+{
+    "extends": [
+      "react-app",
+      "prettier",
+      "prettier/react"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "indent": [
+        "error",
+        "tab"
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-multiple-empty-lines": [
+        "error",
+        { "max": 1 }
+      ],
+      "camelcase": [
+        "error",
+        {
+          "properties": "always"
+        }
+      ],
+      "jsx-quotes": [
+        "error",
+        "prefer-double"
+      ]
+    }
+  }
+  
