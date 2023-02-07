@@ -1,15 +1,15 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 
 function App() {
 	return (
 		<div className="App">
-			<Switch>
+			<BrowserRouter>
 				<Route exact path="/">
 					<h1></h1>
 				</Route>
-			</Switch>
+			</BrowserRouter>
 		</div>
 	);
 }
