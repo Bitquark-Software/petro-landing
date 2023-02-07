@@ -9,16 +9,6 @@ function App() {
 				<Route exact path="/">
 					<h1></h1>
 				</Route>
-
-				<a></a>
-
-				<h1></h1>
-
-
-
-
-				<p></p>
-
 			</Switch>
 		</div>
 	);
